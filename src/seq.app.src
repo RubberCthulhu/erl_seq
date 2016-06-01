@@ -1,0 +1,14 @@
+{application, seq,
+ [{description, ""},
+  {vsn, "1.0"},
+  {modules, [seq_app,
+             seq_sup,
+             seq]},
+  {registered, [seq_sup]},
+  {applications, [kernel,
+                  stdlib]},
+  {mod, {seq_app, []}},
+  {env, []}
+ ]}.
+
+
